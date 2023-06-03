@@ -1,0 +1,164 @@
+:root {
+  --pr-color: #048853;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  background-color: #f3fff4;
+}
+
+/* z-index */
+.navbar {
+  z-index: 3;
+}
+* {
+  z-index: 2;
+}
+
+.image-hero,
+.accsent-image {
+  z-index: 1;
+}
+
+/* navbar style */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-secondary {
+  height: 40px;
+  width: 133px;
+  background-color: #ffffff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-primary {
+  height: 40px;
+  width: 133px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* hero section */
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.image-hero {
+  height: 100%;
+}
+
+.hero-tagline h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #ffffff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* layanan section */
+
+#layanan {
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-layanan {
+  width: 100%;
+  min-height: 113px;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.5);
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+}
+
+.card-layanan h3 {
+  color: #000;
+  size: 24px;
+}
+
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+}
+
+/* layanan hover */
+.card-layanan:hover {
+  width: 100%;
+  min-height: 113px;
+  border-radius: 5px;
+  background: linear-gradient(160deg, var(--pr-color), #484747);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+  background-color: #ffffff;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover h3 {
+  color: #ffffff;
+  size: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover p {
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+}
